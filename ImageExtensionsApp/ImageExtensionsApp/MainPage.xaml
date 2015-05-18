@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ImageExtensionsApp.MainPage"
+             xmlns:controls="clr-namespace:ImageExtensionsApp.Controls;assembly=ImageExtensionsApp">
+
+  <!--<Image x:Name="Image" Source="http://dummyimage.com/100x100/000/fff"/> -->
+  <controls:ImageEx Source="http://dummyimage.com/100x100/000/fff" ImageFailed="Image_ImageFailed" ImageOpened="Image_ImageOpened"/>
+
+</ContentPage>
